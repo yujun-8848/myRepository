@@ -9,6 +9,7 @@ public class BitMap {
 
     public static void main(String[] args) {
 
+
         long beforeMemory = Runtime.getRuntime().totalMemory();
         long start1 = System.currentTimeMillis();
         bitmap = new int[200000000];
