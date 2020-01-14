@@ -22,11 +22,11 @@ import java.util.List;
  */
 public class LetterCasePermutation {
 
-    private List<String> res =new ArrayList<>();
+    private List<String> res = new ArrayList<>();
 
     public List<String> letterCasePermutation(String s) {
         char[] charArray = new char[s.length()];
-        if(s.length() == 0){
+        if (s.length() == 0) {
             return res;
         }
         dfs(s, 0, charArray);
@@ -49,6 +49,7 @@ public class LetterCasePermutation {
     }
 
     public static void main(String[] args) {
+        //大小写互转
      /*   char a = 'a';
         System.out.println((char) (a ^ (1 << 5)));*/
         String s = "a1b2";
