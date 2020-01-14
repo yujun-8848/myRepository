@@ -29,6 +29,7 @@ public class PermuteUnique {
         return res;
     }
 
+    //回溯+剪枝+贪心
     private void generatePermuteUnique(int[] nums, int curSize, Stack<Integer> path) {
         if (curSize == nums.length) {
             res.add(new ArrayList<>(path));

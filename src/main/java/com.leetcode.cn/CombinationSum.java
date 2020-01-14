@@ -5,6 +5,9 @@ import java.util.List;
 
 /**
  * 给定一个无重复元素的数组 candidates 和一个目标数 target ，
+ *
+ *
+ *
  * 找出 candidates 中所有可以使数字和为 target 的组合。
  * candidates 中的数字可以无限制重复被选取。
  * 说明：
@@ -28,8 +31,8 @@ import java.util.List;
  */
 public class CombinationSum {
 
-    private List<List<Integer>> res = new ArrayList<>();
-    private List<Integer> subRes = new ArrayList<>();
+    private List<List<Integer>> res = new ArrayList<List<Integer>>();
+    private List<Integer> subRes = new ArrayList<Integer>();
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
 
@@ -43,7 +46,7 @@ public class CombinationSum {
             return;
         }
         if (sum == target) {
-            List<Integer> tempList = new ArrayList<>();
+            List<Integer> tempList = new ArrayList<Integer>();
             tempList.addAll(list);
             res.add(tempList);
             return;
@@ -65,6 +68,5 @@ public class CombinationSum {
         System.out.println(lists);
         String s = "123";
         String substring = s.substring(0,2);
-
     }
 }
