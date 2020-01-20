@@ -1,5 +1,7 @@
 package com.leetcode.cn.com.backtracking.cn;
 
+import com.daml.dti.function.person.GsonUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,5 +57,16 @@ public class LetterCasePermutation {
         String s = "a1b2";
         LetterCasePermutation letterCasePermutation = new LetterCasePermutation();
         System.out.println(letterCasePermutation.letterCasePermutation(s));
+        String e = "";
+        System.out.println(-3 << 2);
+        int i = -8;
+        System.out.println(i >> 2);
+
+        List<Integer> lsit = new ArrayList<>();
+        lsit.add(1);
+        lsit.add(2);
+        lsit.forEach(integer -> System.out.println(integer));
+
+
     }
 }

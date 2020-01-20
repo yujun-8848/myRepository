@@ -18,7 +18,7 @@ public class BitMap {
         long start1 = System.currentTimeMillis();
         BitSet set = new BitSet(2000000000);
         for (int i = 0; i < 2000000000; i++) {
-   /*假设898989这个数不在20亿个数里面*/
+            /*假设898989这个数不在20亿个数里面*/
             if (i != 898989) {
                 set.set(i, true);
             }
@@ -33,7 +33,7 @@ public class BitMap {
         boolean isExit2 = set.get(900000);
 
         long end2 = System.currentTimeMillis();
-  /*输出在20亿个数中判断898989是否包含在里面*/
+        /*输出在20亿个数中判断898989是否包含在里面*/
         System.out.println(isExit1);
         System.out.println("20个亿中" + (isExit1 ? "包含" : "不包含") + 898989);
         System.out.println("20个亿中" + (isExit2 ? "包含" : "不包含") + 900000);
