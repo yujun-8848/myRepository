@@ -3,22 +3,42 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f3015be4-00e6-4abb-9d5e-50e69a6b68af" name="Default" comment="markdown">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/com/backtracking/cn/LetterCasePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/PermuteUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/PermuteUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/cn/BitMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/cn/BitMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/cn/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/cn/CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/cn/PermuteUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/cn/PermuteUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/class01_test/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/class01_test/Code01_SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/com/backtracking/cn/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.leetcode.cn/com/backtracking/cn/LetterCasePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -74,6 +94,9 @@
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WBM13ysMLGWUZ1UMq7JyI37qdc" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -218,20 +241,22 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/WXWorkLocal/1688849873270957/Cache/File/2020-01/job-plugin-function.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WXWorkLocal/1688849873270957/Cache/File/2020-01/job-plugin-function.jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.LetterCasePermutation">
+  <component name="RunManager" selected="Application.Code01_SelectionSort">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -267,6 +292,44 @@
       <module />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.cn.algorithm.cn.BitMap" />
       <module name="LeetCode" />
@@ -301,13 +364,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.cn.algorithm.cn.KMP" />
+    <configuration name="Code01_SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01_test.Code01_SelectionSort" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.cn.algorithm.cn.*" />
+          <option name="PATTERN" value="class01_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,44 +426,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -408,7 +433,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -470,33 +495,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.KMP" />
       <item itemvalue="Application.PermuteUnique" />
       <item itemvalue="Application.permute" />
       <item itemvalue="Application.BitMap" />
       <item itemvalue="Application.LetterCasePermutation" />
+      <item itemvalue="Application.Code01_SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_SelectionSort" />
         <item itemvalue="Application.LetterCasePermutation" />
         <item itemvalue="Application.BitMap" />
         <item itemvalue="Application.permute" />
         <item itemvalue="Application.PermuteUnique" />
-        <item itemvalue="Application.KMP" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -525,6 +538,7 @@
       <workItem from="1578626409657" duration="5215000" />
       <workItem from="1578973030517" duration="4578000" />
       <workItem from="1578985953210" duration="2413000" />
+      <workItem from="1635387560417" duration="4172000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1578384888449</created>
@@ -567,20 +581,19 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -589,62 +602,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="markdown" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="594" y="104" key="CommitChangelistDialog2" timestamp="1578973355878">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1388" height="122" key="GridCell.Tab.0.bottom" timestamp="1635413060911">
+      <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state x="594" y="104" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578973355878" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578622651846">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1388" height="122" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.0.1920.1080@0.25.1440.805" timestamp="1635413060911" />
+    <state width="1388" height="158" key="GridCell.Tab.0.bottom/0.25.1440.807/1440.0.1920.1080@0.25.1440.807" timestamp="1635412798973" />
+    <state width="1388" height="122" key="GridCell.Tab.0.center" timestamp="1635413060906">
+      <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578622651846" />
-    <state width="1876" height="231" key="GridCell.Tab.0.bottom" timestamp="1578987623483">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1388" height="122" key="GridCell.Tab.0.center/0.25.1440.805/1440.0.1920.1080@0.25.1440.805" timestamp="1635413060906" />
+    <state width="1388" height="158" key="GridCell.Tab.0.center/0.25.1440.807/1440.0.1920.1080@0.25.1440.807" timestamp="1635412798971" />
+    <state width="1388" height="122" key="GridCell.Tab.0.left" timestamp="1635413060904">
+      <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state width="1876" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623483" />
-    <state width="1876" height="231" key="GridCell.Tab.0.center" timestamp="1578987623483">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1388" height="122" key="GridCell.Tab.0.left/0.25.1440.805/1440.0.1920.1080@0.25.1440.805" timestamp="1635413060904" />
+    <state width="1388" height="158" key="GridCell.Tab.0.left/0.25.1440.807/1440.0.1920.1080@0.25.1440.807" timestamp="1635412798970" />
+    <state width="1388" height="122" key="GridCell.Tab.0.right" timestamp="1635413060909">
+      <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state width="1876" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623483" />
-    <state width="1876" height="231" key="GridCell.Tab.0.left" timestamp="1578987623483">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1388" height="122" key="GridCell.Tab.0.right/0.25.1440.805/1440.0.1920.1080@0.25.1440.805" timestamp="1635413060909" />
+    <state width="1388" height="158" key="GridCell.Tab.0.right/0.25.1440.807/1440.0.1920.1080@0.25.1440.807" timestamp="1635412798972" />
+    <state x="86" y="25" key="SettingsEditor" timestamp="1635410703772">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state width="1876" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623483" />
-    <state width="1876" height="231" key="GridCell.Tab.0.right" timestamp="1578987623483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623483" />
-    <state width="1876" height="231" key="GridCell.Tab.1.bottom" timestamp="1578987623484">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623484" />
-    <state width="1876" height="231" key="GridCell.Tab.1.center" timestamp="1578987623484">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="231" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623484" />
-    <state width="1876" height="231" key="GridCell.Tab.1.left" timestamp="1578987623483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="231" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623483" />
-    <state width="1876" height="231" key="GridCell.Tab.1.right" timestamp="1578987623484">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="231" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578987623484" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1578983899154">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578983899154" />
-    <state x="516" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578622616087">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="516" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578622616087" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1578622738971">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578622738971" />
-    <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578973332549">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578973332549" />
+    <state x="86" y="25" key="SettingsEditor/0.25.1440.807/1440.0.1920.1080@0.25.1440.807" timestamp="1635410703772" />
+    <state x="80" y="25" key="SettingsEditor/0.25.1440.875/1440.0.1920.1080@0.25.1440.875" timestamp="1635387581898" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <PATH>
