@@ -13,8 +13,8 @@ public class Code02_EvenTimesOddTimes {
             return;
         }
         int ans = 0;
-        for (int i = 0; i < arr.length; i++) {
-            ans ^= arr[i];
+        for (int value : arr) {
+            ans ^= value;
         }
         System.out.println(ans);
 
@@ -28,8 +28,8 @@ public class Code02_EvenTimesOddTimes {
         //1. 找出所有值异或的结果，假设最终值为ans = a ^ b ;
         // a,b 即为这两个出现奇数次的值
         int ans = 0;
-        for (int i = 0; i < arr.length; i++) {
-            ans ^= arr[i];
+        for (int value : arr) {
+            ans ^= value;
         }
 
         //2. 找出ans中最右侧为1的值
@@ -40,9 +40,9 @@ public class Code02_EvenTimesOddTimes {
         //   ^0000001000
         //    0000000100
         int otherOne = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if ((rightOne & arr[i]) != 0) {
-                otherOne ^= arr[i];
+        for (int value : arr) {
+            if ((rightOne & value) != 0) {
+                otherOne ^= value;
             }
         }
         int one = otherOne ^ ans;

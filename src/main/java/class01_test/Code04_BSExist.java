@@ -16,8 +16,8 @@ public class Code04_BSExist {
         if (sortedArr.length == 1 && sortedArr[0] != num) {
             return false;
         }
-        for (int i = 0; i < sortedArr.length; i++) {
-            if (sortedArr[i] == num) {
+        for (int value : sortedArr) {
+            if (value == num) {
                 return true;
             }
         }
