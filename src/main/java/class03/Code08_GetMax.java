@@ -21,4 +21,8 @@ public class Code08_GetMax {
 		return Math.max(leftMax, rightMax);
 	}
 
+	public static void main(String[] args) {
+		System.out.println(getMax(new int[]{1, 2, 4, 1, 1, 4, 3, 6, 7}));
+	}
+
 }
