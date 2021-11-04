@@ -12,9 +12,9 @@ public class Code06_TwoStacksImplementQueue {
 
     public static class TwoStacksQueue {
         //push栈
-        private Stack<Integer> push;
+        private final Stack<Integer> push;
         //pop栈
-        private Stack<Integer> pop;
+        private final Stack<Integer> pop;
 
         public TwoStacksQueue() {
             this.push = new Stack<>();

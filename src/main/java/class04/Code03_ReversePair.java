@@ -19,7 +19,9 @@ public class Code03_ReversePair {
 		}
 		// l < r
 		int mid = l + ((r - l) >> 1);
-		return process(arr, l, mid) + process(arr, mid + 1, r) + merge(arr, l, mid, r);
+		return process(arr, l, mid)
+				+ process(arr, mid + 1, r)
+				+ merge(arr, l, mid, r);
 	}
 
 	public static int merge(int[] arr, int L, int m, int r) {
@@ -110,21 +112,22 @@ public class Code03_ReversePair {
 
 	// for test
 	public static void main(String[] args) {
-		int testTime = 500000;
-		int maxSize = 100;
-		int maxValue = 100;
-		System.out.println("测试开始");
-		for (int i = 0; i < testTime; i++) {
-			int[] arr1 = generateRandomArray(maxSize, maxValue);
-			int[] arr2 = copyArray(arr1);
-			if (reverPairNumber(arr1) != comparator(arr2)) {
-				System.out.println("Oops!");
-				printArray(arr1);
-				printArray(arr2);
-				break;
-			}
-		}
-		System.out.println("测试结束");
+//		int testTime = 500000;
+//		int maxSize = 100;
+//		int maxValue = 100;
+//		System.out.println("测试开始");
+//		for (int i = 0; i < testTime; i++) {
+//			int[] arr1 = generateRandomArray(maxSize, maxValue);
+//			int[] arr2 = copyArray(arr1);
+//			if (reverPairNumber(arr1) != comparator(arr2)) {
+//				System.out.println("Oops!");
+//				printArray(arr1);
+//				printArray(arr2);
+//				break;
+//			}
+//		}
+//		System.out.println("测试结束");
+		System.out.println(reverPairNumber(new int[]{3, 0, 1, 2, 5}));
 	}
 
 }
