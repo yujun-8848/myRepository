@@ -56,6 +56,9 @@ public class Code01_ReverseList {
         if (head == null) {
             return null;
         }
+        //coding技巧 OVO
+        //记录前一个位置pre
+        //记录后一个位置next
         Node pre = null;
         Node next = null;
         while (head != null) {
