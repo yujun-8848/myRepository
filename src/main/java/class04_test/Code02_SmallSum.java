@@ -1,5 +1,7 @@
 package class04_test;
 
+import java.util.Arrays;
+
 /**
  * @author yujun
  * @Description 在一个数组中，一个数左边比它小的数的总和，叫数的小和，所有数的小和累加起来，叫数组小和。求数组小和。
@@ -114,24 +116,26 @@ public class Code02_SmallSum {
     }
 
     public static void main(String[] args) {
-        System.out.println("start--QAQ");
-        int testTime = 10000;
-        int maxSize = 10;
-        int maxValue = 10;
-        for (int i = 0; i < testTime; i++) {
-            int[] arr = generateArray(maxSize, maxValue);
-            int[] arr2 = copyArray(arr);
-            int ans1 = smallSum_test(arr);
-            int ans2 = smallSum(arr2);
-            if( ans1 != ans2){
-                System.out.println(ans1);
-                System.out.println(ans2);
-                System.out.println("fail--");
-                break;
-            }
-        }
-        System.out.println("end--QAQ");
-
+//        System.out.println("start--QAQ");
+//        int testTime = 10000;
+//        int maxSize = 10;
+//        int maxValue = 10;
+//        for (int i = 0; i < testTime; i++) {
+//            int[] arr = generateArray(maxSize, maxValue);
+//            int[] arr2 = copyArray(arr);
+//            int ans1 = smallSum_test(arr);
+//            int ans2 = smallSum(arr2);
+//            if( ans1 != ans2){
+//                System.out.println(ans1);
+//                System.out.println(ans2);
+//                System.out.println("fail--");
+//                break;
+//            }
+//        }
+//        System.out.println("end--QAQ");
+        int[] arr = {10, -1, -1, 0, 2, 1, -5, 1, 6, 1};
+        smallSum(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 }

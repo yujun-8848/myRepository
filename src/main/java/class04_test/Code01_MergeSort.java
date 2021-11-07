@@ -101,21 +101,24 @@ public class Code01_MergeSort {
 
 
     public static void main(String[] args) {
-        int testTime = 10000;
-        int maxSize = 10;
-        int maxValue = 10;
-        for (int i = 0; i < testTime; i++) {
-            int[] array = generateRandomArray(maxSize, maxValue);
-            int[] array1 = copyArray(array);
-            mergeSort1(array);
-            test(array1);
-            if (!isEqual(array, array1)) {
-                System.out.println("失败");
-                System.out.println(Arrays.toString(array));
-                System.out.println(Arrays.toString(array1));
-                break;
-            }
-
-        }
+//        int testTime = 10000;
+//        int maxSize = 10;
+//        int maxValue = 10;
+//        for (int i = 0; i < testTime; i++) {
+//            int[] array = generateRandomArray(maxSize, maxValue);
+//            int[] array1 = copyArray(array);
+//            mergeSort1(array);
+//            test(array1);
+//            if (!isEqual(array, array1)) {
+//                System.out.println("失败");
+//                System.out.println(Arrays.toString(array));
+//                System.out.println(Arrays.toString(array1));
+//                break;
+//            }
+//
+//        }
+        int[] arr = {10, -1, -1, 0, 2, 1, -5, 1, 6, 1};
+        mergeSort1(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }

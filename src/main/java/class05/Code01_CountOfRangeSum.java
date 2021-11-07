@@ -1,5 +1,9 @@
 package class05;
 
+import java.util.Arrays;
+
+import static class05_test.Code01_CountOfRangeSum.preSum;
+
 // 这道题直接在leetcode测评：
 // https://leetcode.com/problems/count-of-range-sum/
 public class Code01_CountOfRangeSum {
@@ -59,5 +63,35 @@ public class Code01_CountOfRangeSum {
 		}
 		return ans;
 	}
-
+	public static int countRangeSum_test(int[] arr, int lower, int upper) {
+		if (arr == null || arr.length == 0) {
+			return 0;
+		}
+		int ans = 0;
+		int[] sum = preSum(arr);
+		for (int i = 0; i < sum.length; i++) {
+			for (int j = i; j < sum.length; j++) {
+				if (i == j) {
+					if(sum[i] >= lower && sum[i] <= upper){
+						ans++;
+						continue;
+					}
+				}
+				if ((j - i) == sum.length - 1) {
+					continue;
+				}
+				if ((sum[j] - sum[i]) >= lower && (sum[j] - sum[i]) <= upper) {
+					ans++;
+				}
+			}
+		}
+		return ans;
+	}
+	public static void main(String[] args) {
+		int[] arr = {3, 6, -2, 1, 0};
+		int lower = 2;
+		int upper = 8;
+		System.out.println(countRangeSum(arr, lower, upper));
+		System.out.println(countRangeSum_test(arr,lower,upper));
+	}
 }
