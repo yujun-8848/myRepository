@@ -26,7 +26,7 @@ public class Code02_TrieTree {
 	}
 
 	public static class Trie1 {
-		private Node1 root;
+		private final Node1 root;
 
 		public Trie1() {
 			root = new Node1();

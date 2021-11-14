@@ -42,15 +42,11 @@ public class Code02_Heap {
 			return ans;
 		}
 
-		
-		
-		
-		
-		
 		// 新加进来的数，现在停在了index位置，请依次往上移动，
 		// 移动到0位置，或者干不掉自己的父亲了，停！
 		private void heapInsert(int[] arr, int index) {
 			// [index]    [index-1]/2
+			//(i -1) / 2 为父节点的位置
 			// index == 0
 			while (arr[index] > arr[(index - 1) / 2]) {
 				swap(arr, index, (index - 1) / 2);
@@ -61,6 +57,8 @@ public class Code02_Heap {
 		// 从index位置，往下看，不断的下沉
 		// 停：较大的孩子都不再比index位置的数大；已经没孩子了
 		private void heapify(int[] arr, int index, int heapSize) {
+			// 2 * i + 1 左孩子
+			// 2 * i + 2 右孩子
 			int left = index * 2 + 1;
 			while (left < heapSize) { // 如果有左孩子，有没有右孩子，可能有可能没有！
 				// 把较大孩子的下标，给largest
@@ -153,13 +151,6 @@ public class Code02_Heap {
 		while(!heap.isEmpty()) {
 			System.out.println(heap.poll());
 		}
-		
-		
-		
-		
-		
-		
-		
 		int value = 1000;
 		int limit = 100;
 		int testTimes = 1000000;
