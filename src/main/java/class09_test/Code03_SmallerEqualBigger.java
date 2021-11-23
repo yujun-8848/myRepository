@@ -11,7 +11,6 @@ package class09_test;
  */
 public class Code03_SmallerEqualBigger {
 
-
     public static class Node {
         public int value;
         public Node next;
