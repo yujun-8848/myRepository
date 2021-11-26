@@ -1,14 +1,21 @@
-package class12;
+package class12_test;
 
+/**
+ * @author yujun
+ * @Description 满二叉树
+ * 满二叉树的 height ^ 2  - 1 = 节点数
+ * @Date 2021/11/26
+ */
 public class Code04_IsFull {
+
 
     public static class Node {
         public int value;
         public Node left;
         public Node right;
 
-        public Node(int data) {
-            this.value = data;
+        public Node(int value) {
+            this.value = value;
         }
     }
 
@@ -17,7 +24,7 @@ public class Code04_IsFull {
             return true;
         }
         int height = h(head);
-        int nodes = n(head);
+        int nodes = h(head);
         return (1 << height) - 1 == nodes;
     }
 
@@ -28,40 +35,34 @@ public class Code04_IsFull {
         return Math.max(h(head.left), h(head.right)) + 1;
     }
 
-    public static int n(Node head) {
-        if (head == null) {
-            return 0;
-        }
-        return n(head.left) + n(head.right) + 1;
-    }
-
-    public static boolean isFull2(Node head) {
-        if (head == null) {
-            return true;
-        }
-        Info all = process(head);
-        return (1 << all.height) - 1 == all.nodes;
-    }
-
     public static class Info {
         public int height;
         public int nodes;
 
-        public Info(int h, int n) {
-            height = h;
-            nodes = n;
+        public Info(int height, int nodes) {
+            this.height = height;
+            this.nodes = nodes;
         }
     }
 
-    public static Info process(Node head) {
+    public static boolean isFull(Node head) {
         if (head == null) {
+            return true;
+        }
+        Info info = process(head);
+        return (1 << info.height) - 1 == info.nodes;
+    }
+
+    public static Info process(Node x) {
+        if (x == null) {
             return new Info(0, 0);
         }
-        Info leftInfo = process(head.left);
-        Info rightInfo = process(head.right);
-        int height = Math.max(leftInfo.height, rightInfo.height) + 1;
-        int nodes = leftInfo.nodes + rightInfo.nodes + 1;
+        Info left = process(x.left);
+        Info right = process(x.right);
+        int height = Math.max(left.height, right.height) + 1;
+        int nodes = left.nodes + right.nodes + 1;
         return new Info(height, nodes);
+
     }
 
     // for test
@@ -86,11 +87,12 @@ public class Code04_IsFull {
         int testTimes = 1000000;
         for (int i = 0; i < testTimes; i++) {
             Node head = generateRandomBST(maxLevel, maxValue);
-            if (isFull1(head) != isFull2(head)) {
+            if (isFull1(head) != isFull1(head)) {
                 System.out.println("Oops!");
             }
         }
         System.out.println("finish!");
     }
-
 }
+
+
