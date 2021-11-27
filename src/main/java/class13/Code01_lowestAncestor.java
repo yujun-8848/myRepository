@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Code03_lowestAncestor {
+public class Code01_lowestAncestor {
 
 	public static class Node {
 		public int value;
