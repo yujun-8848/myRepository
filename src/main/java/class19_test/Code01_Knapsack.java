@@ -49,7 +49,7 @@ public class Code01_Knapsack {
         return dp[0][bag];
     }
 
-    //在arr[index...]中，满足不超过载重的条件下，最大价值
+    //在arr[cur...]中，满足不超过载重的条件下，最大价值
     public static int process(int[] w, int[] v, int cur, int rest) {
         if (rest < 0) {
             return Integer.MIN_VALUE;

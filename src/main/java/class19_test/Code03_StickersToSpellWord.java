@@ -18,10 +18,12 @@ public class Code03_StickersToSpellWord {
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 
-    //组成贴纸的面值数组中组成target的最小方法数
+    // 所有贴纸stickers，每一种贴纸都有无穷张
+    // target
+    // 最少张数
     public static int process(String[] stickers, String target) {
         if (target.length() == 0) {
-            return 1;
+            return 0;
         }
         int min = Integer.MAX_VALUE;
         for (String str : stickers) {
@@ -30,13 +32,28 @@ public class Code03_StickersToSpellWord {
                 min = Math.min(min, process(stickers, rest));
             }
         }
-        return min == Integer.MAX_VALUE ? 0 : min + 1;
-
-
+        return min + (min == Integer.MAX_VALUE ? 0 : 1);
     }
 
     public static String valied(String str, String target) {
-        return null;
+        char[] str1 = str.toCharArray();
+        char[] str2 = target.toCharArray();
+        int[] count = new  int[26];
+        for (char c : str2) {
+            count[c -'a']++;
+        }
+        for (char c : str1) {
+           count[c-'a']--;
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < count.length; i++) {
+            if(count[i] > 0){
+                for (int j = 0; j < count[i]; j++) {
+                    sb.append((char)( i + 'a'));
+                }
+            }
+        }
+        return sb.toString();
     }
 
 }
